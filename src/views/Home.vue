@@ -1,7 +1,7 @@
 <template>
   <div class="app-map" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
     <div v-if="!trackId" class="error-container">
-      Error, 
+      Something went wrong
     </div>
     <template v-else>
       <div class="track-card-info">

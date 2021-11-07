@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import * as VueGoogleMaps from 'vue2-google-maps'
+import config from "../../config"
 
-console.log(process.env.VUE_APP_API_GMAP)
 Vue.use(VueGoogleMaps, {
     load: {
-        key: "AIzaSyDtxjBY6iyU9YtA4s0zCuLY8gd0uY80-1o",
+        key: config.MAP_KEY,
         libraries: 'places', // This is required if you use the Autocomplete plugin
         // OR: libraries: 'places,drawing'
         // OR: libraries: 'places,drawing,visualization'
