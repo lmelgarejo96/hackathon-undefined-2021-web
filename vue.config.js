@@ -1,6 +1,6 @@
 module.exports = {
     lintOnSave: false,
-    publicPath: './',
-    outputDir: './build/',
+    publicPath: './hackathon-undefined-2021-web',
+    outputDir: './docs/',
     assetsDir: './assets/',
 };
