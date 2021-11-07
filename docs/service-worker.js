@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "hackathon-undefined-2021-web/precache-manifest.6bcfa1f29acd543e8e0ebe150728e146.js"
+  "precache-manifest.532ee60a4c8a3cb4e0fecfa2e00877d9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "hackathon-undefined-web"});
